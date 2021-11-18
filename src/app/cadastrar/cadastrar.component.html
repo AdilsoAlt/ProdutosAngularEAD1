@@ -1,0 +1,16 @@
+<h4>Novo Produto</h4>
+<div class="form-group">
+  <label>Título</label>
+  <input [(ngModel)]="produto.title" class="form-control" placeholder="Título">
+</div>
+<div class="form-group">
+  <label>Preço</label>
+  <input [(ngModel)]="produto.price" class="form-control" placeholder="Preço">
+</div>
+<div class="form-group">
+  <label>Descrição</label>
+  <input [(ngModel)]="produto.description" class="form-control" placeholder="Descrição">
+</div>
+<div style="text-align: center;">
+  <button type="button" (click)="cadastrar()" class="btn btn-primary">Cadastrar</button>
+</div>
